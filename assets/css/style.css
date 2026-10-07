@@ -669,6 +669,32 @@ section .container {
   padding-bottom: 10px;
 }
 
+.resume .resume-item .project-link-wrap {
+  margin: 0 0 16px;
+}
+
+.resume .resume-item .project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border: 1px solid #18d26e;
+  border-radius: 6px;
+  background: rgba(24, 210, 110, 0.12);
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 0 12px rgba(24, 210, 110, 0.32);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.resume .resume-item .project-link:hover,
+.resume .resume-item .project-link:focus-visible {
+  background: rgba(24, 210, 110, 0.24);
+  box-shadow: 0 0 18px rgba(24, 210, 110, 0.6);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
 .resume .resume-item:last-child {
   padding-bottom: 0;
 }
